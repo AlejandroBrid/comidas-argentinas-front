@@ -1,0 +1,403 @@
+section.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1190px;
+}
+div.food_image_container_menu img.food_image_menu {
+  height: 10.2rem;
+  width: 10.2rem;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+}
+div.food_image_container_menu {
+  position: relative;
+}
+ul {
+  list-style: none;
+}
+section.menu div.menu_text p {
+  border-top: 0.5px solid #777;
+  border-bottom: 0.5px solid #777;
+  color: #666;
+}
+section.menu p {
+  border-bottom: 0.5px solid #777;
+}
+section.menu_main {
+  width: 97%;
+  font-family: "Open Sans", sans-serif;
+}
+div.menu_main {
+  display: flex;
+  justify-content: center;
+  width: 97%;
+}
+li.food_cards {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  display: flex;
+  padding-left: 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+li.food_cards p {
+  border-bottom: none;
+  margin: 0;
+  padding: 5px;
+  color: #666;
+  text-align: center;
+}
+li.food_cards p.food_price {
+  border-bottom: none;
+  margin: 0;
+  padding: 5px;
+  color: #ad1f00;
+  text-align: center;
+}
+div.add_to_cart {
+  width: 100%;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  align-items: center;
+}
+div.add_to_cart button i {
+  padding-right: 5px;
+}
+#root
+  > div
+  > main
+  > section
+  > div
+  > section
+  > section
+  > ul
+  > li
+  > a
+  > div
+  > div.food_name_price {
+  margin: 0;
+}
+.food_image_container {
+  position: relative;
+}
+
+.food_image_container {
+  position: relative;
+  margin-top: 5px;
+}
+
+.diet-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+div.add_to_cart_buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+input.amount-input {
+  width: 30%;
+  border-width: 1px;
+  text-align: center;
+  padding: 0.5em 0.2em;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 0.8;
+}
+
+button.add_to_cart {
+  width: 55%;
+  border-width: 1px;
+  padding: 0.5em 0.2em;
+  background-color: #000;
+  color: #fff;
+}
+li.food_cards div.food-card-container img.diet-icon {
+  border-radius: 50%;
+}
+p.display_type {
+  color: #777;
+}
+p.food_name {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1rem;
+  height: 3rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+div.food_name_price p.food_price {
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  color: #ad1f00;
+}
+div.food_name_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.menu_text h2 {
+  margin-bottom: 0.5rem;
+}
+div.menu_text p {
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 5px;
+}
+img.menu_bar_img {
+  width: 4rem;
+  height: 4.6rem;
+}
+div.menu_bar_image_container {
+  height: 4rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+p.menu_bar_food_name {
+  width: 100%;
+}
+div.display_type {
+  border-bottom: 0.5px solid #777;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.display_type select {
+  height: 1.5rem;
+}
+section.menu_main {
+  display: flex;
+  gap: 15px;
+}
+div.menu_text {
+  display: flex;
+  flex-direction: column;
+}
+div.menu_bar {
+  width: 23%;
+  margin-top: 3rem;
+}
+section.show_menu {
+  width: 73%;
+}
+div.menu_bar_card {
+  display: flex;
+  height: 4rem;
+}
+div.menu_bar_name_price {
+  width: 70%;
+}
+div.menu_bar h2 {
+  font-size: 1rem;
+}
+div.menu_bar p {
+  color: #777;
+  border-bottom: none;
+  padding-left: 5px;
+  padding-top: 8px;
+  margin: 0;
+  font-size: 0.75rem;
+}
+div.menu_bar_foods {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+div.menu_bar_food {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+div.menu_bar h2 {
+  border-bottom: 1px solid #777;
+}
+div.menu_bar p.food_price {
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  color: #ad1f00;
+}
+button.grid_button {
+  border: none;
+  background-color: transparent;
+  font-size: larger;
+}
+span.original_price {
+  text-decoration: line-through;
+  margin-left: 5px;
+  color: #666;
+}
+
+.full-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.full-width li.food_cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 10.2rem;
+}
+.full-width li.food_cards div.food_card_container {
+  display: flex;
+  height: 10.2rem;
+}
+.full-width li.food_cards div.food_card_container a:nth-child(2) {
+  width: 69%;
+}
+.full-width div.food_name_price {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+}
+.full-width div.food_name_price p.food_description {
+  height: 6.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.full-width li.food_cards div.food_card_container div.food_image_container {
+  width: 20%;
+
+  position: relative;
+  display: flex;
+  height: 20%;
+}
+
+.full-width div.food_name_price p {
+  font-size: 1rem;
+  color: #777;
+  height: auto;
+  line-height: 1.2rem;
+  text-align: left;
+}
+.full-width div.food_name_price p.food_name {
+  color: #777;
+  font-size: 1.125rem;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.full-width li.food_cards div.add_to_cart {
+  display: flex;
+  height: 10.2rem;
+  flex-direction: column;
+  width: 12%;
+  justify-content: space-evenly;
+}
+.full-width li.food_cards div.add_to_cart div.add_to_cart_buttons {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.full-width
+  li.food_cards
+  div.add_to_cart
+  div.add_to_cart_buttons
+  button.add_to_cart {
+  width: 96%;
+  cursor: pointer;
+  padding: 0.46875rem 0.9375rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+.full-width
+  li.food_cards
+  div.add_to_cart
+  div.add_to_cart_buttons
+  input.amount-input {
+  width: 60%;
+}
+
+.menu-list .food_cards {
+  transition: transform 0.3s ease;
+}
+
+.menu-list .food_cards:hover {
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px 5px 8px rgba(0, 0, 0, 0.1),
+    0px -5px 8px rgba(0, 0, 0, 0.1), 0px 5px 8px rgba(0, 0, 0, 0.1);
+}
+div.menu_bar_card:hover {
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1), -5px 5px 8px rgba(0, 0, 0, 0.1),
+    0px -5px 8px rgba(0, 0, 0, 0.1), 0px 5px 8px rgba(0, 0, 0, 0.1);
+}
+#root
+  > div
+  > main
+  > section
+  > div
+  > section
+  > section
+  > ul
+  > li
+  > a
+  > div
+  > div.add_to_cart
+  > div.price
+  > p {
+  padding-top: 0;
+  color: #ad1f00;
+}
+.grid_button {
+  color: #adadad; /* Color del texto */
+  /* Ajustar según sea necesario */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para el botón activo */
+.grid_button.active {
+  color: #444; /* Color del texto más oscuro cuando está activo */
+}
+
+/* Estilo al pasar el mouse (hover) */
+.grid_button:hover:not(.active) {
+  /* Cambia a negro en hover si no está activo */
+  color: rgb(
+    0,
+    0,
+    0
+  ); /* Cambia el color del texto a blanco en hover si no está activo */
+}
+
+/* Estilo cuando el botón está pulsado (active) */
+.grid_button:active {
+  background-color: darkgray; /* Cambia a gris oscuro cuando se pulsa */
+  border-color: darkgray; /* Cambia el color del borde a gris oscuro cuando se pulsa */
+  color: #555; /* Cambia el color del texto a un gris más oscuro cuando se pulsa */
+}

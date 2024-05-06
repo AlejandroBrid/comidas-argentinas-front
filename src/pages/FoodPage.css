@@ -1,0 +1,96 @@
+div.food_images {
+  width: 30rem;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  /* Ancho del cuadrado */
+  height: 30rem; /* Alto del cuadrado */
+}
+div.food_images img {
+  height: 26rem; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  object-fit: cover;
+  /* Centra la imagen completamente */
+}
+div.food_page {
+  display: flex;
+  flex-direction: row;
+  min-height: 83.2vh;
+  margin: 0;
+  align-items: center;
+  max-width: 1190px;
+  gap: 50px;
+}
+div.food_description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 42rem;
+  height: 27rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+div.food_description h2 {
+  color: #333;
+}
+div.allergen_icons img {
+  width: 70px;
+}
+div.food_images .diet-icon {
+  position: absolute;
+  bottom: 34px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+}
+div.allergen_icons {
+  display: flex;
+  gap: 10px;
+}
+div.food_description div.add_to_cart {
+  width: 15rem;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 0.8;
+}
+div.food_page div.food_description p {
+  height: 8rem;
+  margin-top: 0;
+}
+div.food_description h2 {
+  margin-top: 0;
+}
+div.food_page div.food_description div.add_to_cart {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+div.food_page div.food_description div.add_to_cart input {
+  height: 3rem;
+}
+
+div.food_page div.food_description div.add_to_cart button.add_to_cart_food {
+  width: 7rem;
+  height: 3rem;
+  border-width: 1px;
+  padding: 0.5em 0.2em;
+  background-color: #000;
+  color: #fff;
+}
+.food_page .custom-slider .slick-prev::before,
+.food_page .custom-slider .slick-next::before {
+  color: #666;
+  font-size: x-large;
+}
+
+div.food_page div.food_description p.food_price {
+  margin-bottom: 0;
+}
+p.description {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #666;
+}

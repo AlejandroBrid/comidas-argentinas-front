@@ -1,0 +1,104 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #ffedd1;
+}
+div.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section.menu {
+  display: flex;
+}
+h1 {
+  font-weight: 100;
+}
+h2.home {
+  padding: 20px;
+}
+a.menu {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(107, 73, 29);
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a.menu:hover {
+  background-color: rgb(70, 40, 2);
+}
+div.allergens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+div.allergens_text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+  align-items: center;
+}
+img.home1 {
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.allergens p {
+  width: 50%;
+  text-align: center;
+  font-size: larger;
+}
+div.home_image {
+  width: 50%;
+  height: 43.6rem;
+}
+div.home_image img {
+  width: 100%;
+}
+div.sostenibilidad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  overflow: hidden;
+}
+img.home2 {
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.sostenibilidad_text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.sostenibilidad h3 {
+  width: 50%;
+  text-align: center;
+  font-size: larger;
+}
+.sostenibilidad p {
+  width: 50%;
+  text-align: center;
+  font-size: larger;
+}

@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffedd1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.logo {
+  width: 100px;
+  height: 100px;
+}
+section.search-bar {
+  padding: 30px;
+}
+div.search_bar_container {
+  width: 18rem;
+  border: 1px solid;
+}
+input.search-input {
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  padding: 0.71rem;
+}
+input.search-input::before {
+  border: none;
+}
+input.search-input:focus {
+  outline: none;
+}
+button.search-button {
+  width: 10%;
+  border: none;
+  background-color: transparent;
+}

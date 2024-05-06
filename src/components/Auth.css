@@ -1,0 +1,95 @@
+button.cerrarSesion {
+  border-radius: 5px;
+  padding: 6px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+button.cerrarSesion img {
+  margin: 0px;
+}
+a.login {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-size: large;
+  margin-right: 10px;
+  cursor: pointer;
+}
+a.login button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: medium;
+}
+#root > div > header > nav.login > p {
+  padding-right: 10px;
+
+  padding-bottom: 3px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#root > div > header > nav > p > a {
+  color: black;
+  text-decoration: none;
+}
+nav.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: center;
+}
+a.cartButton {
+  display: flex;
+  color: rgb(101, 63, 6);
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  background-color: rgb(107, 73, 29);
+  color: #ffffff;
+  padding: 7px 7px;
+}
+a.adminButton {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(107, 73, 29);
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+div.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  height: 6rem;
+}
+div.user p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body
+  > div.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper
+  > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+}
+body
+  > div.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper
+  > ul
+  > a {
+  border-bottom: 0.1px solid #cac6c6;
+}

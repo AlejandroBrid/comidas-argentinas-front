@@ -1,0 +1,68 @@
+section.menu_admin {
+  display: flex;
+  justify-content: center;
+}
+section.menu_admin section.show_menu {
+  width: 100%;
+}
+section.menu_admin section.show_menu ul {
+  gap: 40px;
+}
+section.menu_admin section.show_menu div.display_type_admin select {
+  height: 1.7rem;
+}
+div.display_type_admin {
+  border-bottom: 0.5px solid #777;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+ul.menu-list {
+  margin-top: 20px;
+}
+div.food_name_price_admin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 6rem;
+}
+div.edit_food {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.diet-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+div.food_image_container {
+  height: 14.1rem;
+  width: 14.1rem;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+}
+div.food_image_container img.food-image {
+  height: 14.1rem;
+  width: 14.1rem;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+}
+button.edit-button,
+button.delete-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: rgb(107, 73, 29);
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,159 @@
+section.create_food {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.create_food form fieldset {
+  display: flex;
+  align-items: center;
+}
+section.create_food form fieldset label {
+  margin-right: 10px;
+}
+section.create_food form fieldset input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+section.create_food form fieldset textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 100px;
+}
+section.create_food form {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.name-and-featured {
+  display: flex;
+  align-items: center;
+}
+
+.name-fieldset {
+  margin-right: 10px;
+}
+
+.featured-fieldset {
+  display: flex;
+  align-items: center;
+}
+
+.featured-fieldset label {
+  margin-right: 5px;
+}
+#root
+  > main
+  > section
+  > div
+  > section
+  > section
+  > div.display_type
+  > section
+  > form
+  > fieldset.name-and-featured {
+  display: flex;
+}
+div.name-fieldset {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+section.create_food form fieldset input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 6rem;
+}
+div.price_fieldset {
+  margin-right: 10px;
+}
+
+fieldset.allergens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+fieldset.allergens div.allergens {
+  width: 85%;
+}
+section.create_food fieldset {
+  border-bottom: none;
+}
+section.create_food fieldset.photos_fieldset {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+button.button-create-food {
+  width: 9.5rem;
+  padding: 10px 20px;
+  background-color: rgb(107, 73, 29);
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  margin-top: 3px;
+  border: none;
+  cursor: pointer;
+}
+button.button-create-food:hover {
+  background-color: rgb(70, 40, 2);
+}
+div.preview_images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  gap: 20px;
+  height: 10rem;
+}
+div.preview_images img {
+  width: 70%;
+}
+div.photo_input {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+section.create_food fieldset p {
+  border: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+section.create_food fieldset p.image_number {
+  position: absolute;
+  top: 0;
+  left: 10;
+  margin: 0;
+  padding: 5px; /* Puedes ajustar el espaciado según tus preferencias */
+  color: black;
+  background-color: white;
+}
+div.image {
+  width: 33%;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+button.publicar {
+  margin-top: 5px;
+  width: 10rem;
+  align-self: center;
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+}
+button.publicar:hover {
+  background-color: rgb(70, 40, 2);
+}
